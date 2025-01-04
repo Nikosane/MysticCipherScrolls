@@ -21,3 +21,19 @@ def play_challenge():
     except ValueError:
         print("Invalid input. Please enter a number.")
         return False
+
+def word_unscramble():
+    """
+    Example of a word unscrambling challenge.
+    """
+    words = ["cipher", "scroll", "mystic", "code", "encrypt"]
+    selected_word = random.choice(words)
+    scrambled = "".join(random.sample(selected_word, len(selected_word)))
+    print(f"Unscramble the word: {scrambled}")
+    player_guess = input("Your guess: ").strip().lower()
+    if player_guess == selected_word:
+        print("Correct! You win the challenge.")
+        return True
+    else:
+        print(f"Incorrect. The word was {selected_word}.")
+        return False
