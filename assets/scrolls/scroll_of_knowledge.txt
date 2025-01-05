@@ -1,0 +1,4 @@
+Name: Scroll of Knowledge
+Plain Content: Knowledge is the key to enlightenment.
+Encrypted Content: Vjopqjl uo vjg mgdt vq jqpfogvjkogpv.
+Key: shift_2
