@@ -1,0 +1,4 @@
+Name: Scroll of Power
+Plain Content: True power lies in understanding.
+Encrypted Content: Uhuh wpurk skgk ku xdfgukdwpv.
+Key: vigenere_code
