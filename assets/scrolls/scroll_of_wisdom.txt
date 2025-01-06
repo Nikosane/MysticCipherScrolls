@@ -1,0 +1,4 @@
+Name: Scroll of Wisdom
+Plain Content: Wisdom begins with curiosity.
+Encrypted Content: Ykxusq cgnnq vjgp ectwkuv{.
+Key: shift_4
