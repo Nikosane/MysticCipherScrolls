@@ -1,0 +1,23 @@
+{
+  "caesar": {
+    "description": "A substitution cipher that shifts letters by a fixed number.",
+    "examples": [
+      { "plain": "HELLO", "encrypted": "IFMMP", "key": 1 },
+      { "plain": "WORLD", "encrypted": "XPSME", "key": 1 }
+    ]
+  },
+  "vigenere": {
+    "description": "A cipher that uses a keyword to shift letters in a pattern.",
+    "examples": [
+      { "plain": "ATTACK", "encrypted": "LXFOPV", "key": "LEMON" },
+      { "plain": "DEFEND", "encrypted": "GPKYGV", "key": "KEY" }
+    ]
+  },
+  "substitution": {
+    "description": "Each letter is uniquely substituted with another letter.",
+    "examples": [
+      { "plain": "SECRET", "encrypted": "WKHFDW", "key": "custom_mapping" },
+      { "plain": "MESSAGE", "encrypted": "PLSSFQF", "key": "custom_mapping" }
+    ]
+  }
+}
